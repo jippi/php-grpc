@@ -1,0 +1,86 @@
+Source: php-grpc
+Section: php
+Priority: optional
+Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
+Uploaders: Guillaume Delacour <gui@iroqwa.org>,
+           Lior Kaplan <kaplan@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-php (>= 0.33~),
+               g++,
+               libz-dev,
+               php-all-dev
+Standards-Version: 3.9.8
+Vcs-Browser: https://salsa.debian.org/php-team/pecl/php-grpc
+Vcs-Git: https://salsa.debian.org/php-team/pecl/php-grpc.git
+Homepage: http://pecl.php.net/package/grpc
+
+Package: php-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php8.0-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.4-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.3-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.2-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.1-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.0-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+

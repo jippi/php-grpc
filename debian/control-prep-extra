@@ -1,0 +1,60 @@
+Package: php8.0-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.4-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.3-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.2-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.1-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
+Package: php7.0-grpc
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: gRPC party
+
